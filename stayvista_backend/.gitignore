@@ -1,0 +1,70 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Django secret keys
+*.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore SQLite database file
+db.sqlite3
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.migrations/
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+static/
+
+# Local settings
+local_settings.py
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MySQL
+*.sql
+
+# Postgres
+*.pgsql
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
